@@ -3,7 +3,7 @@
   "version": 1, 
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-ivy-v900-strict-minimal-app": {
+    "ngx-ivy-minimal-app-without-ngzone": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -63,8 +63,9 @@
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true,
               "commonChunk": false,
+              "es5BrowserSupport": false,
+              "buildOptimizer": true,
               "budgets": [
                 {
                   "type": "initial",

@@ -1,4 +1,4 @@
-30.4 KB gzipped (95.9 KB uncompressed).
+30.3 KB gzipped (95.7 KB uncompressed).
 
 Hello World Angular app without NgZone.
 
